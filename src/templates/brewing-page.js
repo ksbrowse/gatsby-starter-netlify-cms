@@ -51,7 +51,7 @@ BrewingPage.propTypes = {
 
 export default BrewingPage
 
-export const aboutPageQuery = graphql`
+export const brewingPageQuery = graphql`
   query BrewingPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
