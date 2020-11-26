@@ -1,5 +1,5 @@
 ---
-templateKey: 'about-page'
+templateKey: 'brewing-page'
 path: /brewing
 title: How to brew great Coffee
 ---
