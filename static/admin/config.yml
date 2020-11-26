@@ -44,7 +44,6 @@ collections:
  
   - name: "pages"
     label: "Pages"
-    create: true
     files:
       - file: "src/pages/index.md"
         label: "Landing Page"
@@ -62,13 +61,6 @@ collections:
       - file: "src/pages/about/index.md"
         label: "About"
         name: "about"
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
-       - file: "src/pages/brewing/index.md"
-        label: "Brewing"
-        name: "brewing"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
           - {label: "Title", name: "title", widget: "string"}
